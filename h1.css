@@ -1,0 +1,56 @@
+body{
+	background-image: url("https://github.com/Worthington-Robotics/AttendanceSystem/blob/master/login%20background%204%20(1)%20(1).png?raw=true");
+}
+
+pre{
+
+font-family: utopia-std-headline, serif;
+
+font-weight: 400;
+
+font-style: normal;
+color: white;
+
+
+}
+input{
+display: block;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 15px;
+background: #fff;
+outline: none;
+width: 30%;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+input:hover{
+      background:#fff;
+  color: #10BEEF;
+  border: 1px solid #10BEEF;
+  cursor: pointer;
+}
+button {
+  background: #10BEEF;
+  color: #fff;
+  border: 1px solid #10BEEF;
+  padding: 15px;
+  border-radius: 5px;
+  display: block;
+  width: 20%;
+  margin-left: 15px;
+  transition:  0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+
+}
+button:hover{
+  background:#fff;
+  color: #10BEEF;
+  border: 1px solid #10BEEF;
+  cursor: pointer;
+}
+
+h2{
+	
+}

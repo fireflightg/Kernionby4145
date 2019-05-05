@@ -1,0 +1,222 @@
+#okeyffg{
+  background-image: url("https://github.com/Worthington-Robotics/AttendanceSystem/blob/master/login%20background%204%20(1)%20(1).png?raw=true");
+  background-image:left 100px;
+  background-color: black;
+    padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+#bower {
+  background-image: url("https://github.com/Worthington-Robotics/AttendanceSystem/blob/master/login%20background%204%20(1)%20(1).png?raw=true");
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  background-blend-mode: screen;
+}
+body{
+  background-color: black;
+    padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+h2,pre,input, button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+
+}
+
+.main-div, .loggedin-div {
+  width: 20%;
+  margin: 0px auto;
+  margin-top: 150px;
+  padding: 20px;
+  display: none;
+}
+
+.main-div input {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div input:focus {
+  border: 1px solid #777;
+}
+
+.main-div button, .loggedin-div button {
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+input#myNumber:focus, input#nameinput:focus {
+  border: 1px solid #777;
+}
+input#myNumber,input#nameinput {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  object-position: center;
+  display: fixed;
+  margin-top: 200px;
+  margin-left: 500px;
+  width: 18%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+button#cool,button.cool:hover, button#logout:hover {
+  background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+}
+button#cool,button.cool{
+  background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  object-position: center;
+  margin-left: 500px;
+  width: 20%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+button#logout{
+    background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: block;
+  object-position: center;
+  margin: 200px
+  width: 10%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+
+  margin-left: 600;
+}
+pre{
+color: white;
+margin-left: 500px;
+
+
+}
+
+h2{
+
+color: white;
+margin-left: 500px;
+}
+#minee{
+  color: white;
+  margin-left: 200px;
+}
+h3{
+  color: white;
+  margin-left: 25px;
+  position: relative;
+}
+#bodi{
+  margin-left: 400px;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    height: 500px;
+    width: 500px;
+    z-index: 99;
+    background-color: white;
+    display: none;
+    filter: blur(0px);
+    position: fixed;
+    border-radius: 10px;
+}
+#minee{
+  color: black;
+}
+ #namer{ display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  object-position: center;
+  margin-left: 198px;
+  display: fixed;
+  width: 15%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+.freed:hover{
+    background: #fff;
+  color: #5d8ffc;
+  border: 1px solid #5d8ffc;
+  cursor: pointer;
+
+}
+ .freed{background: #5d8ffc;
+  color: #fff;
+  border: 1px solid #5d8ffc;
+  border-radius: 5px;
+  padding: 15px;
+  display: fixed;
+  object-position: center;
+  margin-left: 200px;
+  width: 20%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+#numinput{
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px;
+  outline: none;
+  object-position: center;
+  margin-left: 198px;
+  display: fixed;
+  width: 15%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+
+}

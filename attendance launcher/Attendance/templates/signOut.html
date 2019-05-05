@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://github.com/Worthington-Robotics/AttendanceSystem/blob/master/trsansparent.png?raw=true">
+    <style rel="stylesheet" type="text/css" media="screen">
+body {
+    background-image: url("https://github.com/Worthington-Robotics/AttendanceSystem/blob/master/login%20background%204%20(1)%20(1).png?raw=true");
+    background-position: 0px 25px;
+}
+    </style>
+    <style rel="stylesheet" type="text/css" media="screen">
+form input.rely{
+display: block;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 15px;
+background: #fff;
+outline: none;
+width: 85%;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+button {
+  background: #10BEEF;
+  color: #fff;
+  border: 1px solid #10BEEF;
+  padding: 15px;
+  border-radius: 5px;
+  display: block;
+  width: 85%;
+  margin-left: 15px;
+  transition:  0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+
+}
+button:hover{
+  background:#fff;
+  color: #10BEEF;
+  border: 1px solid #10BEEF;
+  cursor: pointer;
+}
+input:focus{
+  border: 1px solid #777;
+}
+form {
+  font-family: arial,auto;
+  font-size: 30px;
+  text-shadow: initial;
+  display: center;
+    margin: 0px auto;
+  margin-top: 150px;
+  width: 20%;
+  padding: 20px;
+  text-decoration-color: white;
+  margin-right: 750px;
+}
+
+form button:hover {
+    background:#fff;
+  color: #10BEEF;
+  border: 1px solid #10BEEF;
+  cursor: pointer;
+}
+h2{
+  margin-left: 60px;
+  color: #fff;
+}
+form button.slidea{
+  margin-right: 0px;
+
+}
+form input.modex{
+    margin-left: 50px;
+    background: #10BEEF;
+  color: #fff;
+  border: 1px solid #10BEEF;
+  padding: 15px;
+  border-radius: 5px;
+  display: block;
+  width: 70%;
+  transition:  0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+}
+form input.modex:hover{
+      background:#fff;
+  color: #10BEEF;
+  border: 1px solid #10BEEF;
+  cursor: pointer;
+}
+img{
+margin: 250;
+}
+
+    </style>
+    <link type="text/css" rel="stylesheet" href="K:\Attendance\templates\markrobotics.css" media="screen">
+     <title>Sign Out</title>
+</head>
+<body>
+<form action="postsign_signOut" method="post">
+    {% csrf_token %}
+   <h2>Robotics ID</h2>
+    <input class="rely" type="text" name="Student_ID">
+    <input class="modex" type="submit" value="Sign Out">
+</form>
+<form action="signIn" method="post">
+    {% csrf_token %}
+    <button class="slidea" name="SignIn"> Sign In </button>
+</form>
+</body>
+</html>
